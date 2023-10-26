@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    font-family: Open Sans;
+    text-decoration: none;
+    margin: 0;
+}
+
+.header .nav-links a {
+    color: white;
+    width: 80px;
+}
+
+.header button {
+    background-color: #3A68B8;
+    color: white;
+}
+
+.header div h4 {
+    color: #3A68B8;
+}
+
+.header .fa-solid {
+    color: white;
+}
+
+.header {
+    background-color: #0a111f;
+}
+
+.introduction {
+    background-color: #08101d;
+}
+
+.introduction .left-side h4 {
+    color: #3A68B8;
+}
+
+.introduction .left-side h1 {
+    color: white;
+}
+
+.introduction .left-side p {
+    color: white;
+}
+
+.introduction .left-side .button1 {
+    background-color: #3A68B8;
+    color: white;
+}
+
+.introduction .left-side .button2 {
+    background-color: #3A68B8;
+    color: white;
+}
+
+.introduction .right-side img {
+    width: 100%;
+}
+
+.reklam {
+    background-color: #09111e;
+}
+
+.appleai {
+    background-color: #020a18;
+}
+
+.appleai .left-side img {
+    width: 100%;
+}
+
+.appleai .right-side h1 {
+    color: white;
+}
+
+.appleai .right-side p {
+    color: white;
+}
+
+.appleai .right-side button {
+    background-color: #3A68B8;
+    color: white;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 0px;
+    background-color: #020a18;
+}
+
+.about .rectangle {
+    width: 362px;
+    height: 389px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #0e1623;
+}
+
+.about .rectangle img {
+    width: 98px;
+    height: 103px;
+    margin-top: 30px;
+}
+
+.about .rectangle h2 {
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.about .rectangle p {
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.main {
+    background-color: #020a18;
+}
+
+.main .left-side h2 {
+    color: white;
+}
+
+.main .left-side p {
+    color: white;
+}
+
+.main .right-side img {
+    width: 100%;
+}
+
+.end {
+    background-color: #070f1d;
+    padding: 20px 20px;
+}
+
+.end .one .div {
+    display: flex;
+    align-items: center;
+}
+
+.end .one .div h4 {
+    color: white;
+}
+
+.end .one .div img {
+    width: 15px;
+    height: 12px;
+}
+
+.end .one h3 {
+    color: #3A68B8;
+}
+
+.end .one p {
+    color: white;
+}
+
+.end .trio h3 {
+    color: white;
+}
+
+.end .trio p {
+    color: white;
+}
+
+.end .stop h3 {
+    color: white;
+}
+
+.end .stop p {
+    color: white;
+}
+
+.end .stop h5 {
+    color: white;
+}
+
+.end .stop h4 {
+    color: white;
+}
+
+.end .fa-solid {
+    color: white;
+}
+
+
+@media(max-width:568px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px;
+    }
+
+    .header div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header .nav-links {
+        display: none;
+    }
+
+    .header button {
+        display: none;
+    }
+
+    .introduction {
+        padding: 10px 10px;
+    }
+
+    .introduction .left-side h4 {
+        font-size: 13px;
+    }
+
+    .introduction .left-side h1 {
+        font-size: 20px;
+    }
+
+    .introduction .left-side p {
+        font-size: 10px;
+        margin-top: 3px;
+    }
+
+    .introduction .left-side .button1 {
+        padding: 6px 10px;
+    }
+
+    .introduction .left-side .button2 {
+        padding: 6px 10px;
+    }
+
+    .introduction .left-side .button2 img {
+        width: 10px;
+        margin-right: 3px;
+    }
+
+    .introduction .left-side button {
+        margin-top: 5px;
+    }
+
+    .reklam .partner {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .reklam .partner:nth-child(2),
+    .reklam .partner:nth-child(3),
+    .reklam .partner:nth-child(4) {
+        display: none;
+    }
+
+    .appleai {
+        padding: 20px 20px;
+    }
+
+    .appleai .right-side h1 {
+        font-size: 25px;
+    }
+
+    .appleai .right-side p {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+    .appleai .right-side button {
+        padding: 6px 10px;
+        margin-top: 5px;
+    }
+
+    .main {
+        padding: 20px 20px;
+    }
+
+    .main .left-side h2 {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .main .left-side p {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .main .right-side {
+        margin-top: 40px;
+    }
+
+    .end .trio {
+        display: none;
+    }
+
+    .end .stop {
+        display: none;
+    }
+
+    .end {
+        display: flex;
+        align-items: center;
+    }
+
+    .end .one {
+        margin-right: 35px;
+    }
+
+    .end .one p {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .end .one .div {
+        margin-top: 10px;
+    }
+
+    .end .one .div img {
+        margin-right: 5px;
+    }
+}
+
+@media(min-width:768px) {
+    .header .nav-links {
+        display: none;
+    }
+
+    .header button {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 30px;
+    }
+
+    .header div {
+        display: flex;
+        align-items: center;
+    }
+
+    .introduction {
+        padding: 20px 20px;
+    }
+
+    .introduction .left-side h4 {
+        font-size: 17px;
+    }
+
+    .introduction .left-side h1 {
+        font-size: 30px;
+    }
+
+    .introduction .left-side p {
+        font-size: 14px;
+    }
+
+    .introduction .left-side .button1 {
+        padding: 10px 15px;
+    }
+
+    .introduction .left-side .button2 {
+        padding: 10px 15px;
+    }
+
+    .introduction .left-side .button2 img {
+        width: 10px;
+        margin-right: 4px;
+    }
+
+    .introduction .right-side {
+        width: 600px;
+    }
+
+    .reklam .partner:nth-child(3),
+    .reklam .partner:nth-child(4) {
+        display: none;
+    }
+
+    .reklam {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .appleai {
+        padding: 20px 20px;
+    }
+
+    .appleai .left-side {
+        width: 500px;
+    }
+
+    .appleai .right-side h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .appleai .right-side p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .appleai .right-side button {
+        padding: 10px 15px;
+        margin-top: 10px;
+    }
+
+    .main {
+        padding: 20px 20px;
+    }
+
+    .main .left-side h2 {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .main .left-side p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .main .right-side {
+        width: 630px;
+        height: 604px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    .end .trio {
+        display: none;
+    }
+
+    .end .stop {
+        display: none;
+    }
+
+    .end {
+        display: flex;
+        align-items: center;
+    }
+    .end .one .div h4{
+        font-size: 20px;
+    }
+    .end .one p {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-right: 400px;
+    }
+    .end .one .div{
+        margin-top: 10px;
+    }
+    .end .one .div img{
+        margin-right: 5px;
+    }
+    .end .fa-solid{
+        font-size: 25px;
+    }
+}
+
+@media(min-width:1080px) {
+    .header .nav-links {
+        display: flex;
+    }
+
+    .header button {
+        display: flex;
+    }
+
+    .header .fa-solid {
+        display: none;
+    }
+
+    .header {
+        padding: 21px 200px;
+    }
+
+    .introduction {
+        display: flex;
+        align-items: center;
+        padding: 20px 200px;
+    }
+
+    .introduction .left-side h4 {
+        font-size: 18px;
+    }
+
+    .introduction .left-side h1 {
+        font-size: 45px;
+    }
+
+    .introduction .left-side p {
+        font-size: 18px;
+    }
+
+    .introduction .left-side .button1 {
+        padding: 15px 30px;
+    }
+
+    .introduction .left-side .button2 {
+        padding: 15px 30px;
+    }
+
+    .introduction .left-side .button2 img {
+        width: 18px;
+        height: 15px;
+    }
+
+    .introduction .right-side {
+        width: 900px;
+    }
+
+    .reklam {
+        padding: 20px 130px;
+    }
+
+    .reklam .partner:nth-child(3),
+    .reklam .partner:nth-child(4) {
+        display: block;
+    }
+
+    .appleai {
+        display: flex;
+        align-items: center;
+        padding: 20px 200px;
+    }
+
+    .appleai .left-side {
+        width: 1000px;
+    }
+
+    .appleai .right-side h1 {
+        font-size: 40px;
+    }
+
+    .appleai .right-side p {
+        font-size: 16px;
+    }
+
+    .appleai .right-side button {
+        padding: 15px 30px;
+    }
+    .main {
+        display: flex;
+        padding: 20px 200px;
+    }
+
+    .main .right-side {
+        width: 642px;
+        height: 551px;
+    }
+    .end .fa-solid{
+        display: none;
+    }
+    .end{
+        display: flex;
+        align-items: center;
+        padding: 20px 250px;
+    }
+    .end .stop{
+        display: flex;
+        flex-direction: column;
+    }
+    .end .trio{
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+   .end .one{
+        margin-right:20px;
+   }
+   .end .one h3{
+    font-size: 17px;
+   }
+    .end .one p {
+        width: 230px;
+        font-size: 13px;
+        margin-right: -30px;
+    }
+    .end .one .div h4{
+        font-size: 12px;
+    }
+    .end .trio p{
+        margin-top: 13px;
+        font-size: 14px;
+        width: 134px;
+    }
+    .end .trio h3{
+        font-size: 16px;
+    }
+    .end .stop h3{
+        font-size: 16px;
+    }
+    .end .stop p{
+        font-size: 14px;
+        margin-top: 13px;
+    }
+    .end .stop h5{
+        font-size: 15px;
+        margin-top: 13px;
+    }
+    .end .stop .sosial{
+        width: 174px;
+        height: 15px;
+        margin-top: 13px;
+    }
+    .end .stop .li3{
+        display: flex;
+        margin-top: 13px;
+    }
+    .end .stop .li3 h4{
+        font-size: 14px;
+        margin: 0 6px;
+    }
+    
+
+    
+    
+}
